@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form__body {
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    min-width: 30vw;
+    padding: 2rem;
+}
+
+.login-form__elements {
+    min-height: 10rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+.padding {}
+
+.font-size-heading {
+    font-size: 2rem;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.height-100 {
+    height: 100vh;
+}
+
+.btn {
+    background-color: rgb(0, 127, 255);
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: translateZ(200%);
+}
+
+.btn-min-width {
+    width: 9rem;
+}
+.padding-small {
+    padding: 1rem;
+}
+.margin-small {
+    margin: 10px;
+}
+.input {
+    width: 80%;
+}
+.error {
+    background-color: red;
+    color: white;
+}
