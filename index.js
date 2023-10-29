@@ -92,7 +92,6 @@ const { makePostCall, getCustomers, addCustomer, deleteCustomer } = function net
             const jsonResponse = await response.json();
             return jsonResponse;
 
-
         }
         catch (e) {
             return;
@@ -204,7 +203,9 @@ function buildLoginPage() {
                 password
             }
         });
+        console.log('access token')
         setCookie(`auth_token=${access_token}`)
+        setPageRoute('DEFAULT')
     }
 
 
